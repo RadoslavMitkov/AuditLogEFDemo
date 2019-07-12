@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AuditLogAPI.Data\AuditLogAPI.Data.csproj" />
+    <ProjectReference Include="..\AuditLogAPI.Models\AuditLogAPI.Models.csproj" />
+  </ItemGroup>
+
+</Project>
